@@ -1,0 +1,29 @@
+# Secrets / env
+.env
+.env.*
+!.env.example
+.dev.vars
+*.pem
+*.key
+
+# Node
+node_modules/
+dist/
+build/
+.svelte-kit/
+*.tsbuildinfo
+
+# Cloudflare / Wrangler
+.wrangler/
+wrangler.dev.jsonc
+
+# Logs & caches
+*.log
+.cache/
+coverage/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
